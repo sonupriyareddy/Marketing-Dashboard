@@ -1,0 +1,112 @@
+/* ----------- GLOBAL ---------- */
+body {
+  font-family: "Inter", sans-serif;
+  background: #f6f7f9;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 18px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border: 1px solid #e5e7eb;
+}
+
+/* ----------- INPUT FIELDS ---------- */
+.input {
+  padding: 8px 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  width: 180px;
+  background: #fdfdfd;
+}
+
+.input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
+/* ----------- TABLE ---------- */
+.table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 6px;
+}
+
+.table thead tr th {
+  text-align: left;
+  padding: 10px 12px;
+  font-weight: 600;
+  background: #f3f4f6;
+  color: #374151;
+  border-bottom: 2px solid #e5e7eb;
+  border-radius: 6px;
+}
+
+.table tbody tr {
+  background: #fff;
+  transition: 0.2s;
+  border-radius: 8px;
+}
+
+.table tbody tr:hover {
+  background: #f9fafb;
+}
+
+.table td {
+  padding: 10px 12px;
+  border-top: 1px solid #f1f1f1;
+}
+
+/* ----------- REGION ROW ---------- */
+.region-row {
+  background: #eef2ff !important;
+  border-left: 3px solid #4f46e5;
+}
+
+.region-row:hover {
+  background: #e0e7ff !important;
+}
+
+/* ----------- BUTTON ---------- */
+.btn {
+  padding: 6px 12px;
+  background: #2563eb;
+  border: none;
+  color: white;
+  font-size: 13px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background: #1d4ed8;
+}
+
+.btn:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+/* ----------- PAGINATION ---------- */
+.pagination-btns {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.pagination-info {
+  font-size: 13px;
+  color: #555;
+}
+
+/* ----------- CHILD CHANNEL ROW ---------- */
+.table tr td:nth-child(1) {
+  font-weight: 500;
+}
